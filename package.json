@@ -1,0 +1,20 @@
+{
+  "name": "passport-vatsim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mark Doyle",
+  "license": "MIT",
+  "dependencies": {
+    "@doylemark/tsconfig": "^1.0.0",
+    "passport-custom": "^1.1.1"
+  },
+  "devDependencies": {
+    "@doylemark/eslint-config": "^0.0.2",
+    "eslint": "^7.28.0"
+  }
+}

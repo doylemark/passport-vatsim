@@ -1,0 +1,3 @@
+{
+  "extends": "@doylemark/tsconfig/tsconfig.json"
+}
