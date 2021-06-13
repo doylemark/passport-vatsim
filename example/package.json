@@ -8,9 +8,9 @@
   "author": "Mark Doyle",
   "license": "MIT",
   "dependencies": {
+    "@vatsim/passport-vatsim": "^1.0.0",
     "express": "^4.17.1",
-    "passport": "^0.4.1",
-    "passport-vatsim": "file:.."
+    "passport": "^0.4.1"
   },
   "devDependencies": {
     "@doylemark/tsconfig": "^1.0.0",

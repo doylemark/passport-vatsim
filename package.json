@@ -1,13 +1,18 @@
 {
-  "name": "passport-vatsim",
+  "name": "@vatsim/passport-vatsim",
   "version": "1.0.0",
-  "description": "",
+  "description": "express middleware for passportjs & vatsim",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "public": "npm public --access='public'"
   },
-  "keywords": [],
+  "keywords": [
+    "vatsim",
+    "oauth2",
+    "passport"
+  ],
   "author": "Mark Doyle",
   "license": "MIT",
   "dependencies": {

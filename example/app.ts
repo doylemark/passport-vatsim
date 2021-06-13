@@ -1,6 +1,6 @@
 import * as express from "express";
 import * as passport from "passport";
-import vatsim from "passport-vatsim";
+import vatsim from "@vatsim/passport-vatsim";
 
 /**
  * NOTE: It is imperative that you follow the **full** configuration instructions as described
