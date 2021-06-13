@@ -1,0 +1,18 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only app.ts"
+  },
+  "keywords": [],
+  "author": "Mark Doyle",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "passport": "^0.4.1"
+  },
+  "devDependencies": {
+    "@doylemark/tsconfig": "^1.0.0",
+    "ts-node-dev": "^1.1.6"
+  }
+}

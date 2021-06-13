@@ -1,0 +1,9 @@
+{
+  "extends": "@doylemark/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true
+  }
+}
