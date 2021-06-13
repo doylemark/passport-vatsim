@@ -8,6 +8,7 @@ import { makeAuthURLs } from "./constants";
 import { ApiResponse, UserProfile } from "./user";
 
 export type Profile = Omit<UserProfile, "oauth">;
+
 class Strategy extends OAuth2Strategy {
   public name = "vatsim";
 
