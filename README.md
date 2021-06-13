@@ -6,11 +6,11 @@ example usage in [example](./example/app.ts)
 
 installation:
 
-* `npm install passport-vatsim`
+* `npm install @vatsim/passport-vatsim`
 
 
 ```js
-import vatsim from "passport-vatsim";
+import vatsim from "@vatsim/passport-vatsim";
 
 const config = { clientID, clientSecret, callbackURL, scope };
 
@@ -29,5 +29,5 @@ app.get("/", passport.authenticate("vatsim"), (req, res) => ...)
 ### Typescript
 You can also import the user profile type
 ```js
-import vatsim, { Profile } from "passport-vatsim";
+import vatsim, { Profile } from "@vatsim/passport-vatsim";
 ```
